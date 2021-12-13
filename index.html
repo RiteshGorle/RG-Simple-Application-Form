@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Careers</title>
+<style>
+body {
+		margin: 20px;
+		padding: 0;
+		font-family: sans-serif;
+		background: #eadbc8;
+		 }
+h1 {
+	color: #0d0d0d;
+	font-size: 30px;
+	text-transform: uppercase ;
+	font-weight: 700;
+	text-align: center;
+}
+
+.box {
+	border-radius: 20px;
+	border-color: #800000;
+
+	     }
+
+.box input[ type="Submit"], .box input[type="Reset"] {
+    	border: 0;
+    	font-size: 15px;
+    	font-weight: 500;
+		background:#a9a9a9;
+		border: 2px solid #ff3333  ;
+		padding: 10px ;
+		width: 100px;
+		font-weight: 700;
+		border-radius: 12px;
+		transition: 0.25s;
+		cursor: pointer;	
+
+    }
+		 
+</style>
+
+
+</head>
+
+<body>
+
+<!---------------Heading--------------->
+ <h1> Application Form </h1> 
+
+<!---------------Form--------------->
+<form class="box">
+	
+<!---------------Table--------------->	
+<table class="box" align="center" cellpadding="7" cellspacing="7" border="3">
+
+<!-----------First name----------------------------------->
+ <tr>
+ 	<td>First Name </td>
+ 	<td><input type="Text" name="First Name" ></td>
+</tr>
+
+<!------------Last Name--------------------------->
+<tr>
+ 	<td>Last Name </td>
+ 	<td><input type="Text" name="Last Name" ></td>
+</tr>
+
+<!------------DOB--------------------------->
+<tr>
+ 	<td>Date Of Birth</td>
+ 	<td><input type="date" name="Date Of Birth" ></td>
+</tr>
+
+<!------------Gender--------------------------->
+<tr>
+ 	<td>Gender</td>
+ 	<td> 
+ 		Male <input type="radio" name="gender" value="Male">
+ 		Female <input type="radio" name="gender" value="Female">
+ 	</td>
+</tr>
+
+<!------------Address--------------------------->
+<tr>
+ 	<td>Address <br> <br> <br> </td>  
+ 	<td><textarea name="Address" rows="4" cols="30"> </textarea> </td>
+</tr>
+
+<!------------Mobile No.--------------------------->
+<tr>
+	<td>MOBILE NO.</td>
+ 	<td><input type="number" name="MOBILE NO. " ></td>
+</tr>
+
+<!------------Mobile No.--------------------------->
+<tr>
+	<td>Email Address</td>
+ 	<td><input type="email" name="Email Address " ></td>
+</tr>
+
+<!------------Country--------------------------->
+<tr>
+	<td>Country</td>
+ 	<td><input type="Country" name="Country " value="India" readonly="readonly" ></td>
+</tr>
+
+
+<!------------Qualification --------------------------->
+<tr>
+	<td>Qualification's </td>
+ 	<td> 
+ 		<select name="course"> 
+ 		<option value="Engineering"> Engineering  </option>
+ 		<option value="MCA"> MCA </option>
+ 		<option value="MBBS"> MBBS </option>
+ 		<option value="BAMS"> BAMS </option>
+       </select>
+   </td>
+</tr>
+
+<!------------ Hobbies --------------------------->
+<tr>
+	<td>Hobbies <br> <br> <br> </td>
+	<td>
+		Drawing<input type="Checkbox" name="Hobby_Drawing" value="drawing">
+		Singing<input type="Checkbox" name="Hobby_Singing" value="Singing">
+		Exercise<input type="Checkbox" name="Hobby_Exercise" value="Exercise ">
+		Dancing<input type="Checkbox" name="Hobby_Dancing" value="Dancing">
+	</td>
+</tr>
+
+<!------------ Resume --------------------------->
+
+<tr>
+	<td > Upload Resume</td>
+	<td><input type="file" name="my file"> </td>
+
+</tr>
+
+<!------------ Submit and Reset --------------------------->
+<tr>
+	<td colspan="5" align="center">
+	<input type="Submit"  value="Submit" >	
+	<input type="Reset"  value="Reset">
+   </td>
+
+</tr>
+ 
+</table>
+
+</form>
+
+</body>
+</html>
